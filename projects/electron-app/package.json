@@ -1,0 +1,12 @@
+{
+    "version": "0.0.0",
+    "name": "electron-app",
+    "main": "main.js",
+    "dependencies": {
+        "mime": "^2.4.4",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "electron": "4.0.0"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "casex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-builder --dir"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.4.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "electron": "4.0.0",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "appId": "some.id",
+    "npmRebuild": false,
+    "asar": false,
+    "directories": {
+      "app": "projects/electron-app",
+      "output": "dist/out"
+    },
+    "electronVersion": "4.0.0"
+  }
+}
